@@ -14,3 +14,10 @@ $$
 The second is a standard result, and the second follows from investigating the sum (Putnam 1977):
 
 $$\sum_{n=2}^{\infty}\frac{n^3-1}{n^3+1}$$
+
+Wishful thinking would give the (incorrect) result:
+
+
+$$
+\tanh(a + b + c + ...) = \frac{\tanh(a) + \tanh(b) + \tanh(c) + ...}{1 + \tanh(a) \cdot \tanh(b) \cdot \tanh(c) ...}
+$$
