@@ -29,7 +29,7 @@ $$
 
 Which is incorrect, as $\zeta(3) \simeq 1.202057$. Incorrect, but interesting.  Can we derive the correct $\tanh$ addition formula?
 
-## Probably un-related results
+## Other
 We can also show the (maybe?) related result below.
 
 $$
