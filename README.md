@@ -29,10 +29,9 @@ $$
 
 Which is incorrect, as $\zeta(3) \simeq 1.202057$. Incorrect, but interesting.  Can we derive the correct $\tanh$ addition formula?
 
-##Probably un-related results
+## Probably un-related results
 We can also show the (maybe?) related result below.
 
 $$
-\sum_{k=1}^{\infty}\frac{\zeta(3k)-1}{k} =
-\log\left(3\pi\sech\left(\frac{\pi\sqrt(3)}{2}\right)\right)
+\sum_{k=1}^{\infty} \frac{\zeta(3k) - 1}{k} = \log\left(3\pi \text{sech}\left(\frac{\pi \sqrt{3}}{2}\right)\right)
 $$
