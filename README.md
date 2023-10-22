@@ -12,7 +12,7 @@ $$
 
 The second is a standard result, and the first follows from investigating the sum (Putnam 1977):
 
-$$\sum_{n=2}^{\infty}\frac{n^3-1}{n^3+1}$$
+$$\sum_{n=2}^{\infty}\frac{n^3-1}{n^3+1} = \frac{2}{3}$$
 
 Wishful thinking would give the (incorrect) result:
 
