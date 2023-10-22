@@ -1,4 +1,5 @@
 import sympy as sp
+from zeta3.latex import generate_pdf
 
 n, k = sp.symbols('n k')
 a_n = sp.Symbol('a_n')
@@ -28,6 +29,7 @@ def generate_formulas(N, a_n_seq):
     return formulas
 
 
+
 if __name__ == '__main__':
     example_formulas = generate_formulas(10, a_n)
-    print(example_formulas)
+    generate_pdf(example_formulas)
