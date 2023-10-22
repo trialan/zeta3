@@ -19,5 +19,13 @@ Wishful thinking would give the (incorrect) result:
 
 
 $$
-\tanh(a + b + c + ...) = \frac{\tanh(a) + \tanh(b) + \tanh(c) + ...}{1 + \tanh(a) \cdot \tanh(b) \cdot \tanh(c) ...}
+\tanh(a + b + c + ...) = \frac{\tanh(a) + \tanh(b) + \tanh(c) + ... }{1 + \tanh(a) \cdot \tanh(b) \cdot \tanh(c) ...}
 $$
+
+Which would immediately yield:
+
+$$
+\zeta(3) = 1 + \tanh(\frac{1}{2} \log\left(\frac{3}{2}\right)) = 1.2
+$$
+
+Which is incorrect, as $\zeta(3) \simeq 1.202057. Incorrect, but interesting.
