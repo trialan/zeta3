@@ -11,4 +11,6 @@ $$
 \tanh(a + b) = \frac{\tanh(a) + \tanh(b)}{1 + \tanh(a) \cdot \tanh(b)}
 $$
 
-The second is a standard result, and the second follows from investigating the sum (Putnam 1977): $\sum_{n=2}^{\infty}\frac{n^3-1}{n^3+1}$
+The second is a standard result, and the second follows from investigating the sum (Putnam 1977):
+
+$$\sum_{n=2}^{\infty}\frac{n^3-1}{n^3+1}$$
