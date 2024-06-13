@@ -50,4 +50,4 @@ and then consider $\sin(ax^2)\sin(bx^2)\sin(cx^2)$, and pick values of $a,b,c$ s
 
 $$\left(1-\frac{ax^2}{n\pi}\right)\left(1-\frac{bx^2}{n\pi}\right)\left(1-\frac{cx^2}{n\pi}\right) = \left(1-\frac{abcx^6}{n^3\pi^3}\right)$$
 
-and then a lot of l'Hôpital's rule and the tricks in [these lecture notes](https://www.math.cmu.edu/~bwsulliv/basel-problem.pdf) (proof 1) should have been enough.
+and then a lot of l'Hôpital's rule and the tricks in [these lecture notes](https://www.math.cmu.edu/~bwsulliv/basel-problem.pdf) (proof 1) should have been enough. [This](https://math.stackexchange.com/questions/1459709/can-this-approximate-closed-form-of-aperys-constant-zeta3-be-improved/) is an interesting approach along similar lines, he gets a good approximation for zeta(3).
