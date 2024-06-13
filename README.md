@@ -35,3 +35,6 @@ We can also show the (maybe?) related result below.
 $$
 \sum_{k=1}^{\infty} \frac{\zeta(3k) - 1}{k} = \log\left(3\pi \text{sech}\left(\frac{\pi \sqrt{3}}{2}\right)\right)
 $$
+
+
+This [AoPS post](https://artofproblemsolving.com/community/c490120h1495301_closed_form_of_the_aperys_constant) has an interesting idea of applying Euler's original method, seems worth digging into a bit more.
