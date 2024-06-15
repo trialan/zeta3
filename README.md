@@ -56,4 +56,6 @@ We can play a similar game with the factorisation of the inverse-Gamma function,
 
 [This](https://math.stackexchange.com/questions/1459709/can-this-approximate-closed-form-of-aperys-constant-zeta3-be-improved/) is an interesting approach along similar lines, he gets a good approximation for zeta(3).
 
+## Numerical experimentation
+The first approximation (accurate to 1 decimal point) that we got from the Putnam product suggests adding log(3/2) to the search vector in [this approach](https://ar5iv.labs.arxiv.org/html/0910.2684), this actually improves distance from $\zeta(3)$ from $1.5 \cdot 10^{-22}$ to $1.2 \cdot 10^{-22}$. This is cool because it is a (extremely tiny) improvement on the world's best [approximate form for Apéry's constant](https://mathworld.wolfram.com/AperysConstantApproximations.html).
 
