@@ -1,4 +1,4 @@
-# zeta3
+# Investigating the $\zeta(3)$ problem
 Repo with code related to investigation of the zeta-3 problem. The starting point of our research are the following two results:
 
 $$
