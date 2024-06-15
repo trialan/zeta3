@@ -56,6 +56,14 @@ We can play a similar game with the factorisation of the inverse-Gamma function,
 
 [This](https://math.stackexchange.com/questions/1459709/can-this-approximate-closed-form-of-aperys-constant-zeta3-be-improved/) is an interesting approach along similar lines, he gets a good approximation for zeta(3).
 
-## Numerical experimentation
-The first approximation (accurate to 1 decimal point) that we got from the Putnam product suggests adding log(3/2) to the search vector in [this approach](https://ar5iv.labs.arxiv.org/html/0910.2684), this actually improves distance from $\zeta(3)$ from $1.5 \cdot 10^{-22}$ to $1.2 \cdot 10^{-22}$. This is cool because it is a (extremely tiny) improvement on the world's best [approximate form for Apéry's constant](https://mathworld.wolfram.com/AperysConstantApproximations.html).
+## Numerical experimentation: beating the record number of digits
+The current best approximation to Apéry's constant is good to 21 digits, as quoted on [MathWorld](https://mathworld.wolfram.com/AperysConstantApproximations.html).
 
+The first approximation (accurate to 1 decimal point) that we got from the Putnam product suggests adding log(3/2) to the search vector in [this approach](https://ar5iv.labs.arxiv.org/html/0910.2684), this actually improves distance from $\zeta(3)$ from $1.5 \cdot 10^{-22}$ to $1.2 \cdot 10^{-22}$. This doesn't add a digit though.
+
+However adding $\frac{\pi^2}{7}$ as well does get us to 22 digits. This was tried because of Euler's series expression for zeta(3):
+
+$$ \zeta(3) = \frac{\pi^2}{7} \left(1-4\sum_{k-1}^{
+\infty} \frac{\zeta(2k)}{2^{2k}(2k+1)(2k+2)} \right)$$
+
+This is cool, looks like we beat the record, although of course there was no big insight that led to this. But tbf the current record holder also didn't have massive insight either (I guess his insight was to use PSQL?).
