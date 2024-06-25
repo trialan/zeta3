@@ -52,7 +52,20 @@ $$\left(1-\frac{ax^2}{n\pi}\right)\left(1-\frac{bx^2}{n\pi}\right)\left(1-\frac{
 
 and then a lot of l'Hôpital's rule and the tricks in [these lecture notes](https://www.math.cmu.edu/~bwsulliv/basel-problem.pdf) (proof 1) should have been enough. 
 
-We can play a similar game with the factorisation of the inverse-Gamma function, and get an expression for $\zeta(3)$ this way, but evaluating the limit as $z$ goes to zero of the LHS seems tricky, simplifying the digamma function with its [Laurent series expansion](https://math.stackexchange.com/questions/4185216/approximating-the-digamma-function-for-small-arguments) doesn't seem to help, instead leading to a blowup to infinity.
+We can play a similar game with the factorisation of the inverse-Gamma function, and get an expression for $\zeta(3)$ this way, but evaluating the limit as $z$ goes to zero of the LHS seems tricky, simplifying the digamma function with its [Laurent series expansion](https://math.stackexchange.com/questions/4185216/approximating-the-digamma-function-for-small-arguments) doesn't seem to help, instead leading to a blowup to infinity. Here is a more detailed explanation:
+
+The Weierstrass factorisation of interest is:
+
+$$ \frac{1}{\Gamma(z)} = e^{\gamma z}z\prod_{n=1}^{\infty}\left(1+\frac{z}{n}\right)e^{-z/n}$$
+
+Now we can introduce three gamma functions and consider the factorisation of this:
+
+$$ F(z) = \frac{1}{\Gamma(az)\Gamma(bz)\Gamma(cz)} $$
+
+And we have:
+
+$$ F(z) = e^{\gamma (a+b+c) z}z^3\prod_{n=1}^{\infty}\left(1+\frac{az}{n}\right)\left(1+\frac{bz}{n}\right)\left(1+\frac{az}{n}\right)e^{-(a+b+c)z/n} $$
+
 
 [This](https://math.stackexchange.com/questions/1459709/can-this-approximate-closed-form-of-aperys-constant-zeta3-be-improved/) is an interesting approach along similar lines, he gets a good approximation for zeta(3).
 
