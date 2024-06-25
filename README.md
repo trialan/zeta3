@@ -66,6 +66,28 @@ And we have:
 
 $$ F(z) = e^{\gamma (a+b+c) z}z^3\prod_{n=1}^{\infty}\left(1+\frac{az}{n}\right)\left(1+\frac{bz}{n}\right)\left(1+\frac{az}{n}\right)e^{-(a+b+c)z/n} $$
 
+This is interesting because we can set $a,b,c$ to whichever value we please. So we consider the expanded product and choose them such that only the $n^3$ term remains. This gives:
+
+$$ (a b c z^3)/n^3 + (a b z^2)/n^2 + (a c z^2)/n^2 + (a z)/n + (b c z^2)/n^2 + (b z)/n + (c z)/n + 1 $$
+
+So we set $ab+ac+bc=0$ and $a+b+c=0$, this is solved by $b = -\frac{1}{2}i(a\sqrt{3}-ia)$ and $c = \frac{1}{2}i(a\sqrt{3}+ia)$ which conveniently yields $abc=a^3$. So now our W. factorisation is:
+
+$$ F(z) = z^3\prod_{n=1}^{\infty}\left(1+\frac{a^3z^3}{n^3}\right) $$
+
+This is starting to look promising. Now divide by $z^3$ and take the log of both sides:
+
+$$ \log\left(\frac{F(z)}{z^3}\right) = \sum_{n=1}^{\infty}\log\left(\frac{n^3 + a^3z^3}{n^3}\right) $$
+
+and differentiate w.r.t $z$:
+
+$$ \frac{d}{dz}\log\left(\frac{F(z)}{z^3}\right) = 
+\sum_{n=1}^{\infty}\left(\frac{3z^2a^3}{n^3 + z^3n^3}\right) $$
+
+finally we reach our expression by dividing by $3a^3z^2$ and taking $\lim_{z \to 0}$
+
+$$ \lim_{z \to 0} \frac{1}{3z^2a^3} \frac{d}{dz}\log\left(\frac{F(z)}{z^3}\right) = \zeta(3) $$
+
+Can we evaluate this limit? One confusing thing about this approach is that $a$ is still arbitrary afaik, so when will we get a constraint on $a$?
 
 [This](https://math.stackexchange.com/questions/1459709/can-this-approximate-closed-form-of-aperys-constant-zeta3-be-improved/) is an interesting approach along similar lines, he gets a good approximation for zeta(3).
 
