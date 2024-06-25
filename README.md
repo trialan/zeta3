@@ -42,7 +42,7 @@ This [AoPS post](https://artofproblemsolving.com/community/c490120h1495301_close
 
 $$ \sin(\pi z) = \pi z\prod_{n=1}^{\infty}\left(1-\frac{z^2}{n^2}\right) $$
 
-So a product of sine functions will lead us to find even values of the zeta function, but not odd values. Wishful thinking and bad factorisation would suggest that since the roots of $\sin(ax^2)$ are $\pm\sqrt\frac{n\pi}{a}$ we could write the product of linear factors 
+So a product of sine functions will lead us to find even values of the zeta function, but not odd values, incidentally, this is exactly why this problem is hard for odd values. Wishful thinking and bad factorisation would suggest that since the roots of $\sin(ax^2)$ are $\pm\sqrt\frac{n\pi}{a}$ we could write the product of linear factors 
 
 $$\sin(ax^2) = x\left(1-\frac{x}{\sqrt{\pi/a}}\right)\left(1+\frac{x}{\sqrt{\pi/a}}\right)\left(1-\frac{x}{\sqrt{\pi/2a}}\right)\left(1+\frac{x}{\sqrt{\pi/2a}}\right)..$$ 
 
