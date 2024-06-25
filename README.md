@@ -87,9 +87,15 @@ finally we reach our expression by dividing by $3a^3z^2$ and taking $\lim_{z \to
 
 $$ \lim_{z \to 0} \frac{1}{3z^2a^3} \frac{d}{dz}\log\left(\frac{F(z)}{z^3}\right) = \zeta(3) $$
 
-Can we evaluate this limit? One confusing thing about this approach is that $a$ is still arbitrary afaik, so when will we get a constraint on $a$?
+Can we evaluate this limit? 
+One confusing thing about this approach is that $a$ is still arbitrary afaik, so when will we get a constraint on $a$?
+Might be instructive to evaluate this numerically, but currently limited by missing constraint on $a$. Is the constraint just $a=0$ actually? Because $F(0)$ has to be zero (I think), considering that, as [can be verified with wolfram alpha](https://www.wolframalpha.com/input?i=lim+%281%2FGamma%28z%29%29+as+z+goes+to+0):
+
+$$ \lim_{z \to 0} \frac{1}{\Gamma(z)} = 0$$
 
 [This](https://math.stackexchange.com/questions/1459709/can-this-approximate-closed-form-of-aperys-constant-zeta3-be-improved/) is an interesting approach along similar lines, he gets a good approximation for zeta(3).
+
+Ok maybe that's why this doesn't work... (?)
 
 ## Numerical experimentation: beating the record number of digits
 The current best approximation to Apéry's constant is good to 21 digits, as quoted on [MathWorld](https://mathworld.wolfram.com/AperysConstantApproximations.html).
