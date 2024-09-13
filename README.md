@@ -97,6 +97,19 @@ $$ \lim_{z \to 0} \frac{1}{\Gamma(z)} = 0$$
 
 Ok maybe that's why this doesn't work... (?)
 
+### Addendum
+One interesting thing to notice, $b$ is a cube root of unity, and $c$ is $b^2$. Using traditional notation $\omega$ for the cube root of unity we can get an expression for the derivative:
+
+$$
+\log\left(\frac{F(z)}{z^3}\right) = -\log\Gamma(z) - \log\Gamma(\omega z) - \log\Gamma(\omega^2 z) - 3\log z
+$$
+
+$$
+\frac{d}{dz}\log\left(\frac{F(z)}{z^3}\right) = -\psi(z) - \omega \psi(\omega z) - \omega^2 \psi(\omega^2 z) - \frac{3}{z}
+$$
+
+Where $\psi$ is the [digamma function](https://en.wikipedia.org/wiki/Digamma_function). 
+
 ## Numerical experimentation: beating the record number of digits
 The current best approximation to Apéry's constant is good to 21 digits, as quoted on [MathWorld](https://mathworld.wolfram.com/AperysConstantApproximations.html).
 
