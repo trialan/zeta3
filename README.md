@@ -27,7 +27,7 @@ $$
 \zeta(3) = 1 + \tanh\left(\frac{1}{2} \log\left(\frac{3}{2}\right)\right) = 1.2
 $$
 
-Which is incorrect, as $\zeta(3) \simeq 1.202057$. Incorrect, but interesting.  Can we derive the correct $\tanh$ addition formula?
+Which is incorrect, as $\zeta(3) \simeq 1.202057$. Incorrect, but interesting.  Can we derive the correct $\tanh$ addition formula? (we can and it's not pretty, see Hardy's paper, other more promising approaches below)
 
 ## Other
 ### We can also show the (maybe?) related result below.
